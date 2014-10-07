@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/kindle_clipper"
+
+begin
+  KindleClipper::Application.new(ARGV).run
+rescue Errno::ENOENT => err
+  abort "clipper: #{err.message}"
+end

@@ -1,0 +1,1 @@
+require 'kindle_clipper'
