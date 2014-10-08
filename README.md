@@ -1,6 +1,6 @@
 # KindleClipper
 
-TODO: Write a gem description
+The kindle clipper provides a command line executable to parse your messy clippings file and output all your notes neatly in separate documents.
 
 ## Installation
 
@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To clip one or several clippings.txt files simply enter:
+
+	$ clip path/to/clippings.txt another/path/to/clippings -format
+
+so far only txt and pdf formats are supported.
 
 ## Contributing
 
